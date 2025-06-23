@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Mehta",
+    "category": "Singer",
+    "priceRange": "₹10,000 - ₹20,000",
+    "location": "Mumbai",
+    "image": "/images/singer.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Nisha Rao",
+    "category": "Dancer",
+    "priceRange": "₹15,000 - ₹25,000",
+    "location": "Delhi",
+    "image": "/images/dancer.jpg"
+  },
+  {
+    "id": 3,
+    "name": "DJ Max",
+    "category": "DJ",
+    "priceRange": "₹20,000 - ₹35,000",
+    "location": "Bengaluru",
+    "image": "/images/dj.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Priya Sharma",
+    "category": "Speaker",
+    "priceRange": "₹8,000 - ₹12,000",
+    "location": "Hyderabad",
+    "image": "/images/speaker.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Karan Patel",
+    "category": "Singer",
+    "priceRange": "₹12,000 - ₹18,000",
+    "location": "Mumbai",
+    "image": "/images/singer.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Kapoor",
+    "category": "Dancer",
+    "priceRange": "₹18,000 - ₹30,000",
+    "location": "Chennai",
+    "image": "/images/dancer.jpg"
+  },
+  {
+    "id": 7,
+    "name": "DJ Sonic",
+    "category": "DJ",
+    "priceRange": "₹25,000 - ₹40,000",
+    "location": "Delhi",
+    "image": "/images/dj.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Amit Varma",
+    "category": "Speaker",
+    "priceRange": "₹10,000 - ₹15,000",
+    "location": "Kolkata",
+    "image": "/images/speaker.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Ritika Desai",
+    "category": "Singer",
+    "priceRange": "₹15,000 - ₹25,000",
+    "location": "Ahmedabad",
+    "image": "/images/singer.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Nikhil Raj",
+    "category": "DJ",
+    "priceRange": "₹20,000 - ₹30,000",
+    "location": "Pune",
+    "image": "/images/dj.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Meera Joshi",
+    "category": "Dancer",
+    "priceRange": "₹12,000 - ₹20,000",
+    "location": "Bhopal",
+    "image": "/images/dancer.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Deepak Verma",
+    "category": "Speaker",
+    "priceRange": "₹7,000 - ₹10,000",
+    "location": "Indore",
+    "image": "/images/speaker.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Tanvi Singh",
+    "category": "Singer",
+    "priceRange": "₹10,000 - ₹15,000",
+    "location": "Chandigarh",
+    "image": "/images/singer.jpwg"
+  },
+  {
+    "id": 14,
+    "name": "Rahul Shetty",
+    "category": "Dancer",
+    "priceRange": "₹14,000 - ₹22,000",
+    "location": "Nagpur",
+    "image": "/images/dancer.jpg"
+  },
+  {
+    "id": 15,
+    "name": "DJ Pulse",
+    "category": "DJ",
+    "priceRange": "₹22,000 - ₹28,000",
+    "location": "Jaipur",
+    "image": "/images/dj.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Anjali Menon",
+    "category": "Speaker",
+    "priceRange": "₹9,000 - ₹14,000",
+    "location": "Kochi",
+    "image": "/images/speaker.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Vikram Arora",
+    "category": "Singer",
+    "priceRange": "₹16,000 - ₹24,000",
+    "location": "Noida",
+    "image": "/images/singer.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Simran Kaul",
+    "category": "Dancer",
+    "priceRange": "₹20,000 - ₹30,000",
+    "location": "Surat",
+    "image": "/images/dancer.jpg"
+  },
+  {
+    "id": 19,
+    "name": "DJ Nova",
+    "category": "DJ",
+    "priceRange": "₹28,000 - ₹35,000",
+    "location": "Lucknow",
+    "image": "/images/dj.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Neeraj Rao",
+    "category": "Speaker",
+    "priceRange": "₹11,000 - ₹17,000",
+    "location": "Patna",
+    "image": "/images/speaker.jpeg"
+  }
+]

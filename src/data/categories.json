@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Singers",
+    "image": "/images/singer.jpeg",
+    "link": "/artists?category=Singers"
+  },
+  {
+    "title": "Dancers",
+    "image": "/images/dancer.jpg",
+    "link": "/artists?category=Dancers"
+  },
+  {
+    "title": "Speakers",
+    "image": "/images/speaker.jpeg",
+    "link": "/artists?category=Speakers"
+  },
+  {
+    "title": "DJs",
+    "image": "/images/dj.jpeg",
+    "link": "/artists?category=DJs"
+  }
+]
