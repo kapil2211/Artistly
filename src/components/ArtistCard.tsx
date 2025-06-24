@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 interface Props {
-    id:number;
+  id:number
   name: string;
   location: string;
   priceRange: string;
@@ -10,7 +10,7 @@ interface Props {
   image: string;
 }
 
-const ArtistCard = ({ name, category, location, priceRange, image }: Props) => {
+const ArtistCard = ({id, name, category, location, priceRange, image }: Props) => {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 overflow-hidden">
       {/* Artist Image */}
@@ -25,7 +25,7 @@ const ArtistCard = ({ name, category, location, priceRange, image }: Props) => {
 
       <div className="p-5">
         <h6 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          {name}
+          <span>{id }</span>{name}
         </h6>
         <p className="font-medium text-gray-700 dark:text-gray-400">📍 {location}</p>
         <p className="font-medium text-gray-700 dark:text-gray-400">💰 {priceRange}</p>
