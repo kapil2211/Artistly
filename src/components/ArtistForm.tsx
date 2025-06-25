@@ -6,8 +6,8 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { artistSchema } from "@/lib/validationSchema";
 import { categoryOptions, feeRangeOptions, languageOptions } from "@/data/options";
 import MultiSelectDropdown from "./MultiSelectDropdown";
-import { FaUser, FaInfoCircle, FaTags, FaGlobe, FaRupeeSign, FaMapMarkerAlt, FaCamera, FaPaperPlane } from "react-icons/fa";
-
+import { FaUser,  FaGlobe, FaRupeeSign } from "react-icons/fa";
+import toast from "react-hot-toast";
 import { InferType } from "yup";
 type FormValues = InferType<typeof artistSchema>;
 
@@ -34,6 +34,7 @@ const ArtistForm = () => {
 
   const onSubmit = (data: FormValues) => {
     console.log("Submitted data:", data);
+    toast.success("Artist submitted successfully!");
   };
 
   return (

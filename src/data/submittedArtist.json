@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Arijit Singh",
+    "category": "Singer",
+    "city": "Mumbai",
+    "feeRange": "₹50,000+"
+  },
+  {
+    "id": 2,
+    "name": "DJ Chetas",
+    "category": "DJ",
+    "city": "Delhi",
+    "feeRange": "₹40,000 - ₹50,000"
+  }
+]

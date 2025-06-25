@@ -2,6 +2,11 @@ import HeroSection from "@/components/HeroSection";
 import CategoryCard from "@/components/CategoryCard";
 import categories from "@/data/categories.json";
 
+export const metadata = {
+  title: "Artistly – Discover & Book Top Performing Artists",
+  description: "Connect with talented singers, DJs, dancers, and speakers for your events. Instant quotes. Verified profiles.",
+};
+
 export default function Home() {
   return (
     <>
