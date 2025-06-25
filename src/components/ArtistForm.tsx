@@ -6,7 +6,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { artistSchema } from "@/lib/validationSchema";
 import { categoryOptions, feeRangeOptions, languageOptions } from "@/data/options";
 import MultiSelectDropdown from "./MultiSelectDropdown";
-import { FaUser,  FaGlobe, FaRupeeSign } from "react-icons/fa";
+import { FaUser, FaGlobe, FaRupeeSign } from "react-icons/fa";
 import toast from "react-hot-toast";
 import { InferType } from "yup";
 type FormValues = InferType<typeof artistSchema>;
@@ -89,7 +89,10 @@ const ArtistForm = () => {
           ))}
         </div>
 
-        {errors.languages && <p className="text-red-600 text-sm">{(errors.languages as any).message}</p>}
+        {errors.languages?.message && (
+          <p className="text-red-600 text-sm">{errors.languages.message}</p>
+        )}
+
       </div>
 
       {/* Fee Range */}
@@ -115,11 +118,11 @@ const ArtistForm = () => {
       {/* Location */}
       <div>
         <label className="block font-bold">Location</label>
-         <div className="relative">
+        <div className="relative">
           <FaGlobe className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-lg" />
           <input {...register("location")} className="w-full border px-4 py-2 pl-8 rounded-2xl hover:bg-gray-200 hover:shadow-2xl" placeholder="Enter your Location" />
-          </div>
-       
+        </div>
+
         {errors.location && <p className="text-red-600 text-sm">{errors.location.message}</p>}
       </div>
 
