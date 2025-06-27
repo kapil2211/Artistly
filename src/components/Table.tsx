@@ -24,16 +24,16 @@ const Table = ({ data }: Props) => {
             <table className="min-w-full table-auto border-collapse shadow rounded-md">
                 <thead className="bg-indigo-100">
                     <tr>
-                        <th className="text-left p-3">Name</th>
-                        <th className="text-left p-3">Category</th>
-                        <th className="text-left p-3">Fee Range</th>
-                        <th className="text-left p-3">City</th>
-                        <th className="text-left p-3">Action</th>
+                        <th className="text-left p-3 text-black">Name</th>
+                        <th className="text-left p-3 text-black">Category</th>
+                        <th className="text-left p-3 text-black">Fee Range</th>
+                        <th className="text-left p-3 text-black">City</th>
+                        <th className="text-left p-3 text-black">Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     {data.map((artist) => (
-                        <tr key={artist.id} className="border-t hover:bg-gray-50">
+                        <tr key={artist.id} className="border-t ">
                             <td className="p-3">{artist.name}</td>
                             <td className="p-3">{artist.category}</td>
                             <td className="p-3">{artist.feeRange}</td>
